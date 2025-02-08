@@ -1,0 +1,66 @@
+body{
+    background-color: #fefae0;
+}
+ @font-face {
+    font-family: Heyam;
+     src: url(Heyam.ttf);
+} 
+ @font-face {
+    font-family: KidTribe-Regular;
+    src: url(KidTribeRegular-DYdd1.ttf); 
+} 
+      .name{
+          font-family: Heyam;
+          font-size:80px;
+          color: #606c38;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 0;
+}
+.description{
+    font-family: Heyam;
+    font-size: 30px;
+    color: #dda15e;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+header{
+    border: dashed #283618 5px;
+    border-radius: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HBut{
+    font-family: KidTribe-Regular;
+    font-size: 25px;
+    color: #fefae0;
+    background-color: #dda15e;
+    border:solid #606c38 2px;
+    border-radius: 10px;
+}
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;display: block;
+    margin-bottom: 10px
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.gallery img{
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
